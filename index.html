@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&amp;family=Manrope:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "primary-fixed": "#ffdbcc",
+                    "on-secondary-container": "#745c00",
+                    "surface-container-highest": "#e9e2d3",
+                    "tertiary": "#b22b1d",
+                    "inverse-surface": "#343026",
+                    "surface-container": "#f5edde",
+                    "surface-tint": "#a04100",
+                    "on-tertiary": "#ffffff",
+                    "error": "#ba1a1a",
+                    "primary-fixed-dim": "#ffb693",
+                    "on-background": "#1e1b13",
+                    "on-tertiary-fixed-variant": "#8f0f07",
+                    "surface-variant": "#e9e2d3",
+                    "background": "#fff8ef",
+                    "on-primary-fixed-variant": "#7a3000",
+                    "surface-container-high": "#efe7d9",
+                    "on-primary-container": "#762e00",
+                    "tertiary-container": "#ff9585",
+                    "inverse-primary": "#ffb693",
+                    "tertiary-fixed": "#ffdad4",
+                    "surface-container-low": "#fbf3e4",
+                    "primary": "#a04100",
+                    "on-secondary-fixed": "#241a00",
+                    "surface-bright": "#fff8ef",
+                    "on-surface": "#1e1b13",
+                    "outline-variant": "#dbc2b0",
+                    "surface": "#fff8ef",
+                    "error-container": "#ffdad6",
+                    "on-secondary-fixed-variant": "#574500",
+                    "on-primary-fixed": "#351000",
+                    "primary-container": "#ff9762",
+                    "surface-container-lowest": "#ffffff",
+                    "on-surface-variant": "#554336",
+                    "secondary-fixed-dim": "#e9c349",
+                    "inverse-on-surface": "#f8f0e1",
+                    "tertiary-fixed-dim": "#ffb4a8",
+                    "surface-dim": "#e1d9cb",
+                    "on-secondary": "#ffffff",
+                    "secondary-fixed": "#ffe088",
+                    "secondary": "#735c00",
+                    "on-primary": "#ffffff",
+                    "on-error": "#ffffff",
+                    "outline": "#887364",
+                    "on-error-container": "#93000a",
+                    "secondary-container": "#fed65b",
+                    "on-tertiary-fixed": "#410000",
+                    "on-tertiary-container": "#8c0c05"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.125rem",
+                    "lg": "0.25rem",
+                    "xl": "0.5rem",
+                    "full": "0.75rem"
+            },
+            "fontFamily": {
+                    "headline": ["Noto Serif"],
+                    "body": ["Manrope"],
+                    "label": ["Manrope"]
+            }
+          },
+        }
+      }
+    </script>
+<style>
+        .font-noto-serif { font-family: 'Noto Serif', serif; }
+        .font-manrope { font-family: 'Manrope', sans-serif; }
+        .glass-nav {
+            background-color: rgba(255, 248, 239, 0.8);
+            backdrop-filter: blur(12px);
+        }
+        .hero-gradient {
+            background: linear-gradient(135deg, #a04100 0%, #ff9762 100%);
+        }
+    </style>
+</head>
+<body>
+
+  <div id="header"></div>
+
+  <main id="content"></main>
+
+  <div id="footer"></div>
+  <button class="fixed bottom-8 right-8 w-14 h-14 rounded-full hero-gradient text-on-primary shadow-2xl flex items-center justify-center hover:scale-110 transition-transform z-40 group">
+<span class="material-symbols-outlined text-3xl">add</span>
+<span class="absolute right-16 bg-white text-primary font-bold px-3 py-1 rounded shadow-sm whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity">Submit Heritage Entry</span>
+</button>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
