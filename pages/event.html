@@ -1,0 +1,177 @@
+<!-- Sidebar (Large Screens) -->
+<aside class="fixed left-0 top-0 h-full w-64 bg-surface hidden lg:flex flex-col pt-24 border-r-0">
+<div class="px-6 mb-8">
+<h2 class="font-headline font-bold text-primary text-xl">Kayastha Sabha</h2>
+<p class="text-on-surface-variant text-sm">The Modern Archivist</p>
+</div>
+
+<nav class="flex-1 space-y-1">
+<a class="flex items-center gap-3 px-4 py-3 mx-2 text-on-surface-variant hover:bg-surface-container transition-all" href="#">
+<span class="material-symbols-outlined" data-icon="history_edu">history_edu</span>
+<span class="font-headline">Heritage</span>
+</a>
+<a class="flex items-center gap-3 px-4 py-3 mx-2 bg-secondary-container text-on-secondary-container rounded-lg transition-all"  href="#"
+   onclick="event.preventDefault(); navigate('event')">
+<span class="material-symbols-outlined" data-icon="photo_library">photo_library</span>
+<span class="font-headline">Events</span>
+</a>
+<a class="flex items-center gap-3 px-4 py-3 mx-2 text-on-surface-variant hover:bg-surface-container transition-all"  href="#"
+   onclick="event.preventDefault(); navigate('pooja')">
+<span class="material-symbols-outlined" data-icon="auto_awesome">auto_awesome</span>
+<span class="font-headline">Pooja</span>
+</a>
+<a class="flex items-center gap-3 px-4 py-3 mx-2 text-on-surface-variant hover:bg-surface-container transition-all" href="#" onclick="event.preventDefault(); navigate('pooja','katha')">
+<span class="material-symbols-outlined" data-icon="menu_book">menu_book</span>
+<span class="font-headline">Katha</span>
+</a>
+<a class="flex items-center gap-3 px-4 py-3 mx-2 text-on-surface-variant hover:bg-surface-container transition-all" href="#/Committee">
+<span class="material-symbols-outlined" data-icon="groups">groups</span>
+<span class="font-headline">Committee</span>
+</a>
+</nav>
+
+<div class="p-6 space-y-4">
+<div class="bg-surface-container h-px w-full"></div>
+<a class="flex items-center gap-3 px-4 py-2 text-on-surface-variant hover:text-primary transition-all text-sm" href="#">
+<span class="material-symbols-outlined" data-icon="newspaper">newspaper</span>
+<span>News</span>
+</a>
+<a class="flex items-center gap-3 px-4 py-2 text-on-surface-variant hover:text-primary transition-all text-sm" href="#">
+<span class="material-symbols-outlined" data-icon="settings">settings</span>
+<span>Settings</span>
+</a>
+</div>
+</aside>
+<!-- Main Content -->
+<main class="lg:ml-64 pt-32 pb-20 px-6 md:px-12">
+<header class="max-w-7xl mx-auto mb-16">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-6">
+<div>
+<h1 class="font-headline text-5xl md:text-6xl text-on-surface font-bold tracking-tight mb-4">Event Archives</h1>
+<p class="text-on-surface-variant text-lg max-w-2xl leading-relaxed">A living chronicle of our community's shared moments, cultural celebrations, and heritage gatherings preserved for generations to come.</p>
+</div>
+<div class="flex gap-3">
+<span class="px-4 py-2 bg-secondary-container text-on-secondary-container rounded-full text-sm font-medium flex items-center gap-2">
+<span class="material-symbols-outlined text-sm" data-icon="calendar_today">calendar_today</span>
+                        2023-26 Collection
+                    </span>
+<!--
+<span class="px-4 py-2 bg-surface-container-high text-on-surface-variant rounded-full text-sm font-medium flex items-center gap-2">
+<span class="material-symbols-outlined text-sm" data-icon="filter_list">filter_list</span>
+                        Filter
+                    </span> -->
+</div>
+</div>
+</header>
+<!-- Gallery Grid (Bento Style) -->
+<div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-12 gap-8">
+<!-- Large Featured Item -->
+<div class="md:col-span-8 group cursor-pointer">
+<div class="bg-surface-container-lowest rounded-xl overflow-hidden editorial-shadow transition-transform duration-500 hover:scale-[1.01]">
+<div class="relative h-[500px]">
+<img alt="Shri Chitragupta Moorti Pran Pratistha Mahotsav April 24th 2026" class="w-full h-full object-cover" data-alt="We express our heartfelt gratitude to everyone who participated and contributed to making this holy occasion memorable and successful. May Chitragupta Ji bless all with prosperity, wisdom, and righteous living." src="./pages/Moorti-Pran-Pratistha.png"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+</div>
+<div class="p-8">
+<div class="flex items-center gap-3 mb-2">
+<span class="text-primary text-xs font-bold uppercase tracking-widest">Heritage Festival</span>
+<span class="text-outline text-xs">•</span>
+<span class="text-on-surface-variant text-xs">April 24, 2026</span>
+</div>
+<h3 class="font-headline text-2xl font-bold text-on-surface mb-2">Shri Chitragupta Moorti Pran Pratistha Mahotsav</h3>
+<p class="text-on-surface-variant leading-relaxed">With divine blessings and the presence of devotees, the sacred ceremony of Pran Pratistha of Chitragupta Ji was successfully completed on 24th April.The installation of the idol marks a significant and auspicious moment, bringing positivity, harmony, and blessings to all.</p>
+</div>
+</div>
+</div>
+<!-- Side Item 1 -->
+<div class="md:col-span-4 group cursor-pointer">
+<div class="bg-surface-container-lowest rounded-xl overflow-hidden editorial-shadow transition-transform duration-500 hover:scale-[1.01] h-full flex flex-col">
+<div class="relative h-[300px]">
+<img alt="Pooja Rituals" class="w-full h-full object-cover" data-alt="Close-up of brass lamps and offering plates during a community puja with soft candlelight and red floral accents" src="https://lh3.googleusercontent.com/aida-public/AB6AXuArUkQXZc43hdufCyACQCyL5U0wwrpmCnRE7tYq6ypcVWJcOZ6YviQ_fcaFT89b_DvdBRAoHHXCExp58O3-u7SagIMXTMxTwshEtTE4dr81eF8yICcmQwD3UsmKxLOPjsUKLDnB29TvowutG2hef56h7zqo6UaKYhaphCDEHBbNRSOI99PEuyamJYcUAh7KuGuvft2UNPWgqBr77poqEP7aOq2FitbLLwFL5yFJYLBQ2RaA4SGvsg9CnzQkdtu_aXUGaEc7tjz0J30D"/>
+</div>
+<div class="p-6 flex-1">
+<div class="flex items-center gap-2 mb-2">
+<span class="text-tertiary text-xs font-bold uppercase tracking-widest">Rituals</span>
+</div>
+<h3 class="font-headline text-xl font-bold text-on-surface mb-2">Chitragupta Pooja 2026</h3>
+<p class="text-on-surface-variant text-sm leading-relaxed">Documenting the sacred offerings and collective prayers during our most revered community festival.</p>
+</div>
+</div>
+</div>
+
+<!-- Mid Row Item 2 (Wide) -->
+<div class="md:col-span-8 group cursor-pointer">
+<div class="bg-surface-container-lowest rounded-xl overflow-hidden editorial-shadow transition-transform duration-500 hover:scale-[1.01]">
+<div class="relative h-[500px]">
+<img alt="Lal Bahadur Shastri tribute in Kasganj, 2025" class="w-full h-full object-cover" data-alt="Lal Bahadur Shastri tribute in Kasganj, 2025" src="./pages/2-10-2025-lal-bahadur.jpeg"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+</div>
+<div class="p-8">
+<div class="flex items-center gap-3 mb-2">
+<span class="text-primary text-xs font-bold uppercase tracking-widest">Heritage Festival</span>
+<span class="text-outline text-xs">•</span>
+<span class="text-on-surface-variant text-xs">Octover 2, 2025</span>
+</div>
+<h3 class="font-headline text-2xl font-bold text-on-surface mb-2">Remembering the Legacy of Lal Bahadur Shastri</h3>
+<p class="text-on-surface-variant leading-relaxed">Community members, elders, and youth coming together at Barah Dwari(Kasganj) to honor the legacy of Lal Bahadur Shastri on the occasion of Lal Bahadur Shastri Jayanti, celebrating his values of simplicity, integrity, and service.</p>
+</div>
+</div>
+</div>
+<!-- Mid Row Item 1 -->
+<div class="md:col-span-4 group cursor-pointer">
+<div class="bg-surface-container-lowest rounded-xl overflow-hidden editorial-shadow transition-transform duration-500 hover:scale-[1.01]">
+<div class="relative h-[400px]">
+<img alt="Community Feast" class="w-full h-full object-cover" data-alt="Long dining tables with traditional food served on banana leaves, community members sharing a meal in a sunlit courtyard" src="./pages/shobha-Yatra.png"/>
+</div>
+<div class="p-6">
+<h3 class="font-headline text-xl font-bold text-on-surface mb-2">Heritage Shobha Yatra, April 24th 2026 </h3>
+<p class="text-on-surface-variant text-sm">Heritage Shobha Yatra 2026, dedicated to Chitragupta Ji, was successfully organized and led by the respected committee members with great devotion and dedication. Their efforts ensured a well-managed, vibrant, and spiritually enriching procession.
+A key attraction of the yatra was the children’s exhibition, where young participants beautifully showcased different forms and aspects of Chitragupta Ji through creative attire and performances, reflecting cultural values and enthusiasm.</p>
+</div>
+</div>
+</div>
+
+<!-- Bottom Row Items -->
+<div class="md:col-span-4 group cursor-pointer">
+<div class="bg-surface-container-lowest rounded-xl overflow-hidden editorial-shadow transition-transform duration-500 hover:scale-[1.01]">
+<div class="relative h-[300px]">
+<img alt="Akhil Bharatiya Hasya Kavi Sammelan" class="w-full h-full object-cover" data-alt="Akhil Bharatiya Hasya Kavi Sammelan" src="./pages/Akhil-Bharatiya-Hasya.jpeg"/>
+</div>
+<div class="p-6">
+<h3 class="font-headline text-lg font-bold text-on-surface">Akhil Bharatiya Hasya Kavi Sammelan, 2024</h3>
+<p class="text-on-surface-variant text-sm mt-1">An Evening of Comic Poetry and Expression</p>
+</div>
+</div>
+</div>
+<div class="md:col-span-4 group cursor-pointer">
+<div class="bg-surface-container-lowest rounded-xl overflow-hidden editorial-shadow transition-transform duration-500 hover:scale-[1.01]">
+<div class="relative h-[300px]">
+<img alt="Chitragupta Shobha Yatra – 2023" class="w-full h-full object-cover" data-alt="A vibrant procession bringing together community, devotion, and rich cultural heritage" src="./pages/yatra-2023.jpeg"/>
+</div>
+<div class="p-6">
+<h3 class="font-headline text-lg font-bold text-on-surface">Chitragupta Shobha Yatra April 24th, 2025</h3>
+<p class="text-on-surface-variant text-sm mt-1">A vibrant procession bringing together community, devotion, and rich cultural heritage.</p>
+</div>
+</div>
+</div>
+<div class="md:col-span-4 group cursor-pointer">
+<div class="bg-surface-container-lowest rounded-xl overflow-hidden editorial-shadow transition-transform duration-500 hover:scale-[1.01]">
+<div class="relative h-[300px]">
+<img alt="Executive Committee Formation" class="w-full h-full object-cover" data-alt="Executive Committee Formation" src="./pages/Elected-Committee.png"/>
+</div>
+<div class="p-6">
+<h3 class="font-headline text-lg font-bold text-on-surface">Executive Committee Formation, 2023</h3>
+<p class="text-on-surface-variant text-sm mt-1">A group of committed leaders entrusted with guiding the community through collaboration, integrity, and vision.</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Load More Section -->
+<!--
+<div class="max-w-7xl mx-auto mt-20 text-center">
+<button class="bg-surface-container-high text-on-surface hover:bg-surface-container-highest px-12 py-4 rounded-lg font-bold transition-all editorial-shadow flex items-center gap-3 mx-auto">
+<span class="material-symbols-outlined" data-icon="sync">sync</span>
+                Load Archived Memories
+            </button>
+</div> -->
+</main>
